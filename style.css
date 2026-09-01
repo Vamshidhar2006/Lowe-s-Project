@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(250, 245, 235);
+}
+#main {
+    color: rgb(101, 67, 33);
+    background-color: rgb(245, 225, 195);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+.sf {
+    background-color: rgb(233, 196, 124);
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+    
+}
+.sf label {
+    display: block;
+    color: rgb(101, 67, 33);
+    margin-bottom: 5px;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid rgb(180, 150, 120);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(245, 225, 195);
+    color: rgb(101, 67, 33);
+}
+#z{
+    color:aliceblue(100,45,98);
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+button {
+    background-color: rgb(101, 67, 33);
+    color: rgb(255, 250, 240);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+}
+#exportBtn{
+    display: block;
+    margin: 15px auto;
+}
