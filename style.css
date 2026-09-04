@@ -1,61 +1,48 @@
-```css
 body {
     background-color: rgb(250, 245, 235);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 25px;
-    color: rgb(70, 50, 35);
 }
 
 #main {
     color: rgb(101, 67, 33);
     background-color: rgb(245, 225, 195);
-    border-radius: 10px;
-    padding: 18px;
+    border-radius: 12px;
+    padding: 20px;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .sf {
     background-color: rgb(233, 196, 124);
+    text-align: center;
     padding: 25px;
-    border-radius: 10px;
+    border-radius: 12px;
     max-width: 600px;
     margin: auto;
-    box-sizing: border-box;
-}
-
-.form-group {
-    margin-bottom: 15px;
 }
 
 .sf label {
     display: block;
     color: rgb(101, 67, 33);
-    margin-bottom: 6px;
-    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .sf input {
-    width: 100%;
-    padding: 9px;
+    width: 90%;
+    padding: 8px;
     border: 1px solid rgb(180, 150, 120);
     border-radius: 6px;
-    box-sizing: border-box;
     background-color: rgb(255, 250, 240);
-}
-
-.sf input:focus {
-    outline: none;
-    border-color: rgb(101, 67, 33);
 }
 
 button {
     background-color: rgb(101, 67, 33);
     color: rgb(255, 250, 240);
-    padding: 9px 16px;
+    padding: 9px 15px;
     border: none;
-    border-radius: 7px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -64,8 +51,7 @@ button:hover {
 }
 
 #z {
-    display: block;
-    margin: 20px auto 0;
+    margin-top: 15px;
 }
 
 h2 {
@@ -73,15 +59,10 @@ h2 {
     margin-top: 30px;
 }
 
-.table-container {
-    width: 100%;
-    overflow-x: auto;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 15px;
+    margin-top: 20px;
     background-color: rgb(255, 250, 240);
 }
 
@@ -101,13 +82,20 @@ tr:hover {
     background-color: rgb(250, 240, 220);
 }
 
-.delete-btn {
-    background-color: rgb(150, 70, 50);
-    padding: 6px 10px;
-}
-
 #exportBtn {
     display: block;
-    margin: 20px auto;
+    margin: 15px auto;
 }
-```
+
+#viewBtn {
+    display: block;
+    margin: 15px auto;
+}
+
+#storedTitle {
+    margin-top: 30px;
+}
+
+#storedTable {
+    margin-bottom: 30px;
+}

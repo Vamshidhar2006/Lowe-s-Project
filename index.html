@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,53 +9,91 @@
 </head>
 
 <body>
-    <h1 id="main"> Student Grade Management System </h1>
+
+    <h1 id="main">Student Grade Management System</h1>
+
     <form class="sf">
-    <label for="name">Student Name:</label>
-    <input type="text" id="name" name="name">
-    <label for="math">Mathematics:</label>
-    <input type="number" id="math" name="math">
 
-    <label for="physics">Physics:</label>
-    <input type="number" id="physics" name="physics">
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    <label for="chemistry">Chemistry:</label>
-    <input type="number" id="chemistry" name="chemistry">
+        <label for="math">Mathematics:</label>
+        <input type="number" id="math" name="math" required>
 
-    <label for="english">English:</label>
-    <input type="number" id="english" name="english">
+        <label for="physics">Physics:</label>
+        <input type="number" id="physics" name="physics" required>
 
-    <label for="history">History:</label>
-    <input type="number" id="history" name="history">
+        <label for="chemistry">Chemistry:</label>
+        <input type="number" id="chemistry" name="chemistry" required>
 
-    <label for="extra">Extra Curricular:</label>
-    <input type="text" id="extra" name="extra">
+        <label for="english">English:</label>
+        <input type="number" id="english" name="english" required>
 
-    <button id="z" type="submit">Add Student</button>
-</form>
+        <label for="history">History:</label>
+        <input type="number" id="history" name="history" required>
+
+        <label for="extra">Extra Curricular:</label>
+        <input type="text" id="extra" name="extra" required>
+
+        <button id="z" type="submit">Add Student</button>
+
+    </form>
+
     <h2>Students Data</h2>
+
     <table>
         <thead>
             <tr>
-        <th>Student Name</th>
-        <th>Mathematics</th>
-        <th>Physics</th>
-        <th>Chemistry</th>
-        <th>English</th>
-        <th>History</th>
-        <th>Extra Curricular</th>
-        <th>Total</th>
-        <th>Average</th>
-        <th>Highest</th>
-        <th>Weakest</th>
-        <th>Grade</th>
-        <th>Action</th>
-        </tr>
+                <th>Student Name</th>
+                <th>Mathematics</th>
+                <th>Physics</th>
+                <th>Chemistry</th>
+                <th>English</th>
+                <th>History</th>
+                <th>Extra Curricular</th>
+                <th>Total</th>
+                <th>Average</th>
+                <th>Highest</th>
+                <th>Weakest</th>
+                <th>Grade</th>
+                <th>Action</th>
+            </tr>
         </thead>
-    <tbody id="display">
-    </tbody>
+
+        <tbody id="display">
+        </tbody>
     </table>
-    <button type="button" id="exportBtn">Store in Database</button>
+
+    <button type="button" id="exportBtn">Store Data</button>
+
+    <button type="button" id="viewBtn">View Stored Data</button>
+
+    <h2 id="storedTitle">Stored Student Data</h2>
+
+    <table id="storedTable">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Mathematics</th>
+                <th>Physics</th>
+                <th>Chemistry</th>
+                <th>English</th>
+                <th>History</th>
+                <th>Extra Curricular</th>
+                <th>Total</th>
+                <th>Average</th>
+                <th>Highest</th>
+                <th>Weakest</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+
+        <tbody id="storedDisplay">
+        </tbody>
+    </table>
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
